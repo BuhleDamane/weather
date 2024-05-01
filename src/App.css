@@ -14,14 +14,13 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #d4ecf3;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -35,4 +34,140 @@
   to {
     transform: rotate(360deg);
   }
+}
+.container-box{
+  width: 500px;
+  height: 500px;
+  background-color: white;
+}
+.cities{
+color: rgb(5, 108, 252);
+display: flex;
+font-size: 18px;
+padding: 0 12px;
+}
+#text{
+  margin-left: -10px;
+  width: 305px;
+  height: 32px;
+  outline: 0;
+  border-left: 0;
+  border: 2px solid rgb(112, 109, 109);
+  box-shadow: 0 5px 10px rgba(197, 193, 193, 0.3);
+  font-size: 16px;
+}
+#search{
+  background-color: rgb(5, 108, 252);
+  color: white;
+  border: 0;
+  width: 70px;
+  height: 36px;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.3);
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#current{
+  background-color: green;
+  color: white;
+  border: 0;
+  width: 70px;
+  height: 36px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+input{
+  margin-top: 1px;
+  height: 35px;
+}
+.city-one{
+  margin-right: 15px;
+  font-weight: 500;
+}
+.city-two{
+  margin-right: 15px;
+  font-weight: 500;
+}
+.city-three{
+  margin-right: 15px;
+  font-weight: 500;
+}
+.city-four{
+  margin-right: 15px;
+  font-weight: 500;
+}
+.city-day{
+  font-size: 18px;
+  margin-left: -380px;
+  color: rgb(112, 109, 109);
+}
+h3{
+  margin-left: -20px;
+  font-weight: 500;
+}
+.day{
+  margin-left: 27px;
+  margin-top: -20px;
+  font-size: 16px;
+}
+.weather-type{
+  margin-top: -15px;
+  margin-left: -30px;
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+.temperature{
+  margin-top: 0px;
+}
+.icon{
+  margin-left: -420px;
+  font-size: 35px;
+}
+h1{
+  margin-top: -60px;
+  margin-left: -310px;
+  font-size: 50px;
+}
+.degree{
+  margin-top: -90px;
+  margin-left: -230px;
+  font-size: 20px;
+}
+.celcius{
+  margin-top: -45px;
+  margin-left: -210px;
+  font-size: 20px;
+}
+.precipitation{
+  margin-left: 230px;
+  font-size: 15px;
+  margin-top: -40px;
+  color: rgb(112, 109, 109);
+}
+.windSpeed{
+  margin-left: 230px;
+  font-size: 15px;
+  margin-top: -18px;
+  color: rgb(112, 109, 109);
+}
+.forecast{
+  margin-left: -50px;
+  color: rgb(112, 109, 109);
+}
+ul{
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  font-size: 20px;
+  margin-top: 50px;
+}
+.day-week{
+  font-size: 15px;
+}
+.icons{
+  font-size: 35px;
+}
+.temp{
+  font-size: 15px;
+}
+.last-para{
+  font-size: 15px;
 }
